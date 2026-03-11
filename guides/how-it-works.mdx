@@ -5,7 +5,7 @@ description: "Understand how Sweeps automates daily bonus collection across swee
 
 ## Overview
 
-Sweeps is a Chrome extension that runs in the background and automatically collects daily bonuses from your connected sweepstakes casino accounts. Here's a breakdown of the process.
+Sweeps is a Chrome extension that runs in the background and automatically collects daily bonuses from your connected sweepstakes casino accounts. It turns 2+ hours of daily manual work into a one-time 5-minute setup.
 
 ## The Collection Cycle
 
@@ -16,25 +16,33 @@ Sweeps is a Chrome extension that runs in the background and automatically colle
     {/* PLACEHOLDER: Confirm how scheduling works — does it check on a timer, use known reset times, or detect availability? */}
   </Step>
   <Step title="Automated login">
-    When a bonus is available, Sweeps securely logs into the casino site using your stored credentials.
+    When a bonus is available, Sweeps securely logs into the casino site using your locally stored credentials.
   </Step>
   <Step title="Bonus claim">
     Sweeps navigates to the bonus claim area and collects the daily free bonus on your behalf.
   </Step>
   <Step title="Status update">
-    The extension logs the result and updates your dashboard with the collected amount.
+    The extension logs the result and updates your balance tracking dashboard with the collected amount.
   </Step>
 </Steps>
+
+## Key Features
+
+| Feature | Description |
+| --- | --- |
+| **Automated Bonus Collection** | Collects daily bonuses from 50+ casinos without manual intervention |
+| **One-Click Casino Login** | Jump straight into any connected casino with a single click |
+| **Balance Tracking Dashboard** | All your casino balances consolidated in one place |
+| **24/7 Background Operation** | Runs in the background while you do anything else |
 
 ## Security & Privacy
 
 <AccordionGroup>
   <Accordion title="How are my casino credentials stored?">
-    {/* PLACEHOLDER: Confirm exact credential storage method — local encrypted storage, cloud-based, etc. */}
-    Your casino login credentials are stored securely using encrypted local storage within the Chrome extension. They are never sent to external servers beyond what's needed to log into the casino sites themselves.
+    Your credentials never leave your computer. Sweeps stores everything locally in your browser — the team physically cannot see your passwords. No cloud storage, no data collection, no risk.
   </Accordion>
   <Accordion title="Does Sweeps access my personal data?">
-    No. Sweeps only interacts with the sweepstakes casino sites you explicitly connect. It does not read your browsing history, access other websites, or collect personal data.
+    No. Sweeps only interacts with the sweepstakes casino sites you explicitly connect. It does not read your browsing history, access other websites, or collect personal data. See the [Privacy Policy](https://app.termly.io/policy-viewer/policy.html?policyUUID=6ddb5aea-c16e-4bae-8e1f-b84b48991b08) for full details.
   </Accordion>
   <Accordion title="Can Sweeps make purchases or place bets?">
     No. Sweeps is strictly limited to collecting free daily bonuses. It cannot make deposits, place bets, or perform any financial transactions on your behalf.
@@ -45,7 +53,7 @@ Sweeps is a Chrome extension that runs in the background and automatically colle
 
 For Sweeps to collect bonuses around the clock:
 
-{/* PLACEHOLDER: Confirm the exact requirements for 24/7 operation — does Chrome need to be open? Does the computer need to be awake? Is there a cloud-based option? */}
+{/* PLACEHOLDER: Confirm exact requirements — does Chrome need to be actively open or can it be fully in background? */}
 
 - **Chrome must be running** — The extension operates within the browser, so Chrome needs to be open (it can be minimized).
 - **Computer must be awake** — Your computer's sleep settings should be configured to keep it active, or you can use a dedicated machine.
@@ -57,13 +65,13 @@ For Sweeps to collect bonuses around the clock:
 
 ## What Bonuses Does Sweeps Collect?
 
-{/* PLACEHOLDER: Confirm the exact types of bonuses collected — daily login, free spins, coin bonuses, etc. */}
-
 Sweeps collects **free daily bonuses** offered by sweepstakes casinos. These typically include:
 
 - **Daily login bonuses** — Free coins awarded just for signing in each day
 - **Timed bonuses** — Bonuses that reset every few hours
 - **Promotional offers** — Free bonus claims from ongoing promotions
+
+The bonuses award Sweeps Coins (SC) that can be redeemed for real cash, gift cards, or cryptocurrency.
 
 <Note>
   Sweeps does not interact with paid features, VIP programs, or any mechanic that requires spending real money. Only free bonuses are collected.
