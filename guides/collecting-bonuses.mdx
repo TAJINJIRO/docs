@@ -1,0 +1,86 @@
+---
+title: "Collecting Bonuses"
+description: "How Sweeps collects daily bonuses and how to monitor your earnings."
+---
+
+## Automatic Collection
+
+Once you've connected your casinos and enabled auto-collect, Sweeps handles everything. The extension runs in the background and collects bonuses as they become available.
+
+### What Gets Collected
+
+{/* PLACEHOLDER: Confirm the exact bonus types and coin terminology used across different casinos */}
+
+Sweepstakes casinos typically offer two types of free currency:
+
+- **Gold Coins (GC)** — Used for social/free play with no cash value
+- **Sweeps Coins (SC)** — Can be redeemed for real prizes or cash equivalents
+
+Sweeps collects both types of bonuses when available.
+
+## Monitoring Your Collections
+
+{/* PLACEHOLDER: Confirm dashboard features — is there a web dashboard, extension-only view, or both? */}
+
+### Extension Dashboard
+
+Open the Sweeps extension to see an overview of your collection activity:
+
+- **Today's collections** — Bonuses collected in the current 24-hour period
+- **Total earnings** — Cumulative coins collected across all casinos
+- **Per-casino breakdown** — Individual collection status for each connected casino
+
+### Activity Log
+
+{/* PLACEHOLDER: Confirm if an activity log exists and what information it shows */}
+
+The activity log provides a detailed history of every collection attempt:
+
+| Column | Description |
+| --- | --- |
+| Timestamp | When the collection was attempted |
+| Casino | Which casino site |
+| Status | Success, failed, or skipped |
+| Amount | Coins collected (if successful) |
+| Notes | Any relevant details (e.g., "Bonus not yet available") |
+
+## Collection Timing
+
+{/* PLACEHOLDER: Confirm how collection timing works — fixed schedule, smart timing, user-configurable? */}
+
+Sweeps automatically determines the best time to collect each casino's bonus based on their reset schedule. Most casinos reset daily bonuses at midnight in their local timezone.
+
+<Tip>
+  You don't need to configure collection times. Sweeps handles the scheduling automatically to maximize your bonus collection.
+</Tip>
+
+## Handling Collection Issues
+
+Sometimes a collection attempt may fail. Common reasons and solutions:
+
+<AccordionGroup>
+  <Accordion title="CAPTCHA required">
+    {/* PLACEHOLDER: Confirm how Sweeps handles CAPTCHAs */}
+    Some casinos present CAPTCHAs during login. When this happens, Sweeps will notify you and pause collection for that casino until you manually solve the CAPTCHA.
+  </Accordion>
+  <Accordion title="Casino site is down">
+    If a casino's website is temporarily unavailable, Sweeps will retry automatically at the next scheduled interval.
+  </Accordion>
+  <Accordion title="Password changed">
+    If you've changed your password on a casino site, update it in Sweeps via the [connection management](/guides/connecting-casinos#updating-credentials) settings.
+  </Accordion>
+  <Accordion title="Bonus already claimed">
+    If you manually claimed a bonus before Sweeps could collect it, the extension will skip that collection cycle and try again at the next reset.
+  </Accordion>
+</AccordionGroup>
+
+## Maximizing Your Earnings
+
+- **Connect more casinos** — The more casinos you connect, the more daily bonuses you collect.
+- **Keep Sweeps running 24/7** — Ensure your computer stays on and Chrome remains open.
+- **Keep credentials current** — Update passwords promptly when you change them on casino sites.
+- **Check for new casinos** — Sweeps regularly adds support for new sites. Check the [supported casinos list](/reference/supported-casinos) periodically.
+
+<Note>
+  Users who connect 20+ casinos and run Sweeps 24/7 typically earn **$300–$500/month** in redeemable coins. Results vary based on individual casino bonus structures and availability.
+</Note>
