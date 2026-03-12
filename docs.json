@@ -4,9 +4,9 @@
   "name": "Sweeps-app",
   "description": "Number 1 Tool for Managing Online Sweepstakes.",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#4ADE80",
-    "dark": "#15803D"
+    "primary": "#22C55E",
+    "light": "#16A34A",
+    "dark": "#22C55E"
   },
   "favicon": "/favicon.svg",
   "metadata": {
